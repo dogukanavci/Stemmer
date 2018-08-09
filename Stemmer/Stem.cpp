@@ -128,9 +128,6 @@ void Stem::SetFlags(){
     SetFlag(word[word.size()-1]=='t' && word[word.size()-2]=='n'&& word[word.size()-3]=='e'&& m>2 && step==1 && word.size()>6,3);
 }
 void Stem::Simplification(){
-    if (word=="apartment") {
-        std::cout<<""<<std::endl;
-    }
     int maximumIndex=-1;
     for (int i=0; i<flags.size(); i++) {
         if (flags[i]==true) {
