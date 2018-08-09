@@ -40,10 +40,5 @@ int main(int argc, const char * argv[]) {
     std::cout<<endl<<"Succesful results: "<<success<<" out of "<< totalWords <<" words."<<endl<< "Success rate is: "<<(double)success/totalWords<<endl;
     readResult.close();
     readData.close();
-    /*Stem stem;
-    std::string word;
-    word="a";
-    stem.Stemming(word);
-    std::cout<<word;*/
     return 0;
 }
